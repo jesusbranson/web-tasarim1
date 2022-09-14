@@ -1,0 +1,114 @@
+body {
+    background-color: #131313;
+    color: #525252;
+    font-family: verdana,Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.sayfa {
+    width: 960px;
+    margin:auto;
+}
+
+#logo {
+    float: left;
+    width:250px;
+    margin-top:7px;
+    margin-left: 10px;
+}
+
+.ust {
+    background-color: #232323;
+}
+#logo h1 {
+    margin:0;
+    padding: 0;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+ #logo h1 a{
+    color: #DBDBDB;
+    font-family: Georgia;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+#logo p {
+    color:white;
+    font-family: georgia;
+    margin-left: 3px;
+    margin-top: 0;
+    margin-top:0;
+    letter-spacing: 2px;
+
+}
+#menu {
+    float: right;
+    text-align: right;
+    margin:30px 0 0 0 ;
+    padding: 0;
+    width: 650px;
+}
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#menu ul li {
+    display: inline;
+    margin-right: 35px;
+
+}
+#menu ul li a {
+    color:#DBDBDB;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Verdana;
+}
+.orta{
+    margin-top: 20px;
+}
+.ortasol {
+    float:left;
+    width:575px;
+}
+.ortasag {
+    width: 360px;
+    float: right;
+    padding:10px;
+    height: 280px;
+    background-color:yellow;
+    padding: 10px;
+}
+.ortasag img {
+    box-shadow: 10px 10px 10px gray;
+}
+.orta-resim {
+    margin:0 25px;
+}
+.card {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+}
+
+.card:nth-child(3) {
+    margin: 0;
+}
+
+.card h1 {
+    border-bottom:1px dotted white;
+    padding-bottom: 15px;
+}
+.button a {
+    display: inline-block;
+    padding: 10px 15px;
+    color:#fdc609;
+    background-color: #232323;
+    text-decoration: none;
+
+}
+.clear {
+    clear: both;
+}
+
